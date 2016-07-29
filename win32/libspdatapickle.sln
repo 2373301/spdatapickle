@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspdatapickle", "libspdatapickle.vcxproj", "{BECB9E84-8C59-4690-9A08-D04D69DFA934}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspjson", "..\spjson-win32\libspjson.vcxproj", "{7679C168-3F3E-44C3-99B8-05768F0B8AC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspxml", "..\spxml\win32\libspxml.vcxproj", "{2D0F22E2-D0F8-469A-81E2-47AB9ADB46B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spxml2struct", "spxml2struct.vcxproj", "{A996E191-9AFD-43B4-A9E3-79DBF2A773C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testaddrbook", "testaddrbook.vcxproj", "{ACEEA09C-4482-4305-A5DB-E1B716F76556}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "testbenchmark", "testbenchmark.dsp", "{8BAEE00E-EBC2-4BDD-BC41-90EC4C66F5D9}"
+	ProjectSection(DevStudioProjDeps) = postProject
+		0 = spxml2struct
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECB9E84-8C59-4690-9A08-D04D69DFA934}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BECB9E84-8C59-4690-9A08-D04D69DFA934}.Debug|Win32.Build.0 = Debug|Win32
+		{BECB9E84-8C59-4690-9A08-D04D69DFA934}.Release|Win32.ActiveCfg = Release|Win32
+		{BECB9E84-8C59-4690-9A08-D04D69DFA934}.Release|Win32.Build.0 = Release|Win32
+		{BECB9E84-8C59-4690-9A08-D04D69DFA934}.Template|Win32.ActiveCfg = Release|Win32
+		{BECB9E84-8C59-4690-9A08-D04D69DFA934}.Template|Win32.Build.0 = Release|Win32
+		{7679C168-3F3E-44C3-99B8-05768F0B8AC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7679C168-3F3E-44C3-99B8-05768F0B8AC6}.Debug|Win32.Build.0 = Debug|Win32
+		{7679C168-3F3E-44C3-99B8-05768F0B8AC6}.Release|Win32.ActiveCfg = Release|Win32
+		{7679C168-3F3E-44C3-99B8-05768F0B8AC6}.Release|Win32.Build.0 = Release|Win32
+		{7679C168-3F3E-44C3-99B8-05768F0B8AC6}.Template|Win32.ActiveCfg = Template|Win32
+		{7679C168-3F3E-44C3-99B8-05768F0B8AC6}.Template|Win32.Build.0 = Template|Win32
+		{2D0F22E2-D0F8-469A-81E2-47AB9ADB46B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D0F22E2-D0F8-469A-81E2-47AB9ADB46B1}.Debug|Win32.Build.0 = Debug|Win32
+		{2D0F22E2-D0F8-469A-81E2-47AB9ADB46B1}.Release|Win32.ActiveCfg = Release|Win32
+		{2D0F22E2-D0F8-469A-81E2-47AB9ADB46B1}.Release|Win32.Build.0 = Release|Win32
+		{2D0F22E2-D0F8-469A-81E2-47AB9ADB46B1}.Template|Win32.ActiveCfg = Template|Win32
+		{2D0F22E2-D0F8-469A-81E2-47AB9ADB46B1}.Template|Win32.Build.0 = Template|Win32
+		{A996E191-9AFD-43B4-A9E3-79DBF2A773C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A996E191-9AFD-43B4-A9E3-79DBF2A773C3}.Debug|Win32.Build.0 = Debug|Win32
+		{A996E191-9AFD-43B4-A9E3-79DBF2A773C3}.Release|Win32.ActiveCfg = Release|Win32
+		{A996E191-9AFD-43B4-A9E3-79DBF2A773C3}.Release|Win32.Build.0 = Release|Win32
+		{A996E191-9AFD-43B4-A9E3-79DBF2A773C3}.Template|Win32.ActiveCfg = Template|Win32
+		{A996E191-9AFD-43B4-A9E3-79DBF2A773C3}.Template|Win32.Build.0 = Template|Win32
+		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Debug|Win32.Build.0 = Debug|Win32
+		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Release|Win32.ActiveCfg = Release|Win32
+		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Release|Win32.Build.0 = Release|Win32
+		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Template|Win32.ActiveCfg = Template|Win32
+		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

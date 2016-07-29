@@ -1,0 +1,99 @@
+﻿Build started 2016/7/30 2:13:02.
+     1>Project "D:\code\spdatapickle\trunk\spjson-win32\libspjson.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\spjson\spjsoncodec.cpp ..\spjson\spjsondomparser.cpp ..\spjson\spjsonevent.cpp ..\spjson\spjsonhandle.cpp ..\spjson\spjsoniterator.cpp ..\spjson\spjsonnode.cpp ..\spjson\spjsonparser.cpp ..\spjson\spjsonreader.cpp ..\spjson\spjsonrpc.cpp ..\spjson\spjsonutils.cpp ..\spjson\sppbcodec.cpp ..\spjson\sppbfield.cpp ..\spjson\sppbrpc.cpp ..\spjson\sppbtree.cpp ..\spjson\testpbcomm.cpp
+         testpbcomm.cpp
+         sppbtree.cpp
+         sppbrpc.cpp
+         sppbfield.cpp
+         sppbcodec.cpp
+     1>d:\code\spdatapickle\trunk\spjson\sppbcodec.cpp(648): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\sppbcodec.cpp(652): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\sppbcodec.cpp(663): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+         spjsonutils.cpp
+         spjsonrpc.cpp
+     1>d:\code\spdatapickle\trunk\spjson\spjsonrpc.cpp(150): warning C4244: 'return' : conversion from 'int64_t' to 'int', possible loss of data
+         spjsonreader.cpp
+         spjsonparser.cpp
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(115): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(120): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(123): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(135): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(138): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(143): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(177): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(180): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(181): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(202): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonparser.cpp(204): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         spjsonnode.cpp
+     1>d:\code\spdatapickle\trunk\spjson\spjsonnode.cpp(61): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonnode.cpp(142): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>d:\code\spdatapickle\trunk\spjson\spjsonnode.cpp(177): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         spjsoniterator.cpp
+         spjsonhandle.cpp
+         spjsonevent.cpp
+         spjsondomparser.cpp
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(139): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(253) : see declaration of 'stricmp'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(199): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(201): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(204): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(208): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(210): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(212): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(216): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsondomparser.cpp(238): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+         spjsoncodec.cpp
+     1>d:\code\spdatapickle\trunk\spjson\spjsoncodec.cpp(86): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+     1>d:\code\spdatapickle\trunk\spjson\spjsoncodec.cpp(88): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_snprintf'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\Debug\libspjson.lib" /NOLOGO .\Debug\spjsoncodec.obj
+         .\Debug\spjsondomparser.obj
+         .\Debug\spjsonevent.obj
+         .\Debug\spjsonhandle.obj
+         .\Debug\spjsoniterator.obj
+         .\Debug\spjsonnode.obj
+         .\Debug\spjsonparser.obj
+         .\Debug\spjsonreader.obj
+         .\Debug\spjsonrpc.obj
+         .\Debug\spjsonutils.obj
+         .\Debug\sppbcodec.obj
+         .\Debug\sppbfield.obj
+         .\Debug\sppbrpc.obj
+         .\Debug\sppbtree.obj
+         .\Debug\testpbcomm.obj
+         libspjson.vcxproj -> D:\code\spdatapickle\trunk\spjson-win32\.\Debug\libspjson.lib
+     1>Done Building Project "D:\code\spdatapickle\trunk\spjson-win32\libspjson.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
