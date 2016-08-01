@@ -132,6 +132,7 @@
     <ClInclude Include="..\spdatapickle\spdatapickle.hpp" />
     <ClInclude Include="..\spdatapickle\spdpalloc.hpp" />
     <ClInclude Include="..\spdatapickle\spdpbase64.hpp" />
+    <ClInclude Include="..\spdatapickle\spdpcode.hpp" />
     <ClInclude Include="..\spdatapickle\spdpmetainfo.hpp" />
     <ClInclude Include="..\spdatapickle\spdpmetautils.hpp" />
     <ClInclude Include="..\spdatapickle\spjsonpickle.hpp" />
