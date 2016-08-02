@@ -132,20 +132,12 @@
     <ClInclude Include="..\spdatapickle\spdatapickle.hpp" />
     <ClInclude Include="..\spdatapickle\spdpalloc.hpp" />
     <ClInclude Include="..\spdatapickle\spdpbase64.hpp" />
-    <ClInclude Include="..\spdatapickle\spdpbuiltin.hpp" />
-    <ClInclude Include="..\spdatapickle\spdpclasscode.hpp" />
     <ClInclude Include="..\spdatapickle\spdpcode.hpp" />
-    <ClInclude Include="..\spdatapickle\spdplib.hpp" />
     <ClInclude Include="..\spdatapickle\spdpmetainfo.hpp" />
     <ClInclude Include="..\spdatapickle\spdpmetautils.hpp" />
-    <ClInclude Include="..\spdatapickle\spdpname.hpp" />
-    <ClInclude Include="..\spdatapickle\spdpsyntax.hpp" />
-    <ClInclude Include="..\spdatapickle\spdpvector.hpp" />
-    <ClInclude Include="..\spdatapickle\spdpxml.hpp" />
     <ClInclude Include="..\spdatapickle\spjsonpickle.hpp" />
     <ClInclude Include="..\spdatapickle\sppbpickle.hpp" />
     <ClInclude Include="..\spdatapickle\spxmlpickle.hpp" />
-    <ClInclude Include="..\spdatapickle\spxmlrpcpickle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

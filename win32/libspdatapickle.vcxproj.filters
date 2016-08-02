@@ -85,31 +85,7 @@
     <ClInclude Include="..\spdatapickle\spxmlpickle.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\spdatapickle\spdpbuiltin.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\spdatapickle\spdpclasscode.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\spdatapickle\spdpcode.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\spdatapickle\spdplib.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\spdatapickle\spdpname.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\spdatapickle\spdpsyntax.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\spdatapickle\spdpvector.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\spdatapickle\spdpxml.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\spdatapickle\spxmlrpcpickle.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
