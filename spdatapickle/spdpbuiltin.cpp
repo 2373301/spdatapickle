@@ -11,6 +11,23 @@
 
 #include "spdatapickle/spdplib.hpp"
 
+/*
+    short mMySize;
+    short mId;
+    char * mName;
+
+    short mOffset;
+    short mType;
+    char mIsPtr;
+    char mIsRequired;
+    short mArraySize;
+
+    char * mReferTo;
+    short mFieldSize;
+    short mItemSize;
+    char mIsReferred;
+*/
+
 static SP_DPMetaField_t gMetaSP_DPChar [] = {
 	{ sizeof(SP_DPMetaField_t), 1, "Value",
 		SP_DP_FIELD_OFFSET(SP_DPChar_t, mValue), eTypeSPDPChar, 0, 1, 0,

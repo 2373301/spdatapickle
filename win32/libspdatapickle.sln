@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspdatapickle", "libspdatapickle.vcxproj", "{BECB9E84-8C59-4690-9A08-D04D69DFA934}"
 EndProject
@@ -13,10 +13,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spxml2struct", "spxml2struc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testaddrbook", "testaddrbook.vcxproj", "{ACEEA09C-4482-4305-A5DB-E1B716F76556}"
 EndProject
-Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "testbenchmark", "testbenchmark.dsp", "{8BAEE00E-EBC2-4BDD-BC41-90EC4C66F5D9}"
-	ProjectSection(DevStudioProjDeps) = postProject
-		0 = spxml2struct
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testbenchmark", "testbenchmark.vcxproj", "{59C628F0-8BA0-423F-A358-110EA88A3783}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +52,12 @@ Global
 		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Release|Win32.Build.0 = Release|Win32
 		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Template|Win32.ActiveCfg = Template|Win32
 		{ACEEA09C-4482-4305-A5DB-E1B716F76556}.Template|Win32.Build.0 = Template|Win32
+		{59C628F0-8BA0-423F-A358-110EA88A3783}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59C628F0-8BA0-423F-A358-110EA88A3783}.Debug|Win32.Build.0 = Debug|Win32
+		{59C628F0-8BA0-423F-A358-110EA88A3783}.Release|Win32.ActiveCfg = Release|Win32
+		{59C628F0-8BA0-423F-A358-110EA88A3783}.Release|Win32.Build.0 = Release|Win32
+		{59C628F0-8BA0-423F-A358-110EA88A3783}.Template|Win32.ActiveCfg = Release|Win32
+		{59C628F0-8BA0-423F-A358-110EA88A3783}.Template|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

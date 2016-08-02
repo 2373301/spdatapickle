@@ -178,8 +178,8 @@ void testBuiltin()
 		SP_XmlStringBuffer buffer;
 		pbPickle.pickle( &mix, &buffer );
 
-		//printf( "protobuf:\n\n" );
-		//printBuffer( &buffer );
+		printf( "protobuf:\n\n" );
+		printBuffer( &buffer );
 	}
 
 	pbPickle.freeFields( mix );
@@ -195,7 +195,7 @@ int main( int argc, char * argv[] )
 	const char * filename = argv[1];
 	int loops = atoi( argv[2] );
 
-	test( filename, loops );
+	//test( filename, loops );
 
 	testBuiltin();
 
